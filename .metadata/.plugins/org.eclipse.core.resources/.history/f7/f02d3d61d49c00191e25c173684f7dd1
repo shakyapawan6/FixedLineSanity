@@ -1,0 +1,26 @@
+Story: Fixed Line Sanity
+Meta:
+@tag tag:admin,tag:application,version:Release-02,version:Sprint-01.02
+
+Narrative:
+  As a user
+  I should be able to create FL orders
+  
+Scenario:AnkitaFLNP006 -Consumer,Vodafone Superfast Fibre Plus and Home Phone, SPAREPAIR   
+Meta:@AnkitaFLNP006
+@FolderName AnkitaFLNP006
+@Ankita
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|FTR5*&&Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'

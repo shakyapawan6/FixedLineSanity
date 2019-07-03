@@ -1,0 +1,213 @@
+2019-07-01 09:32:37,748 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-07-01 09:33:42,668 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: open.ui:sjb:1.0 @ Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\pom.xml.
+2019-07-01 09:33:49,263 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sjb/src/main/java
+2019-07-01 09:33:49,266 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sjb/src/test/java
+2019-07-01 09:33:52,633 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 23 sec
+2019-07-01 09:33:56,863 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:33:56,952 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:33:56,955 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:33:57,038 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\test\resources
+2019-07-01 09:35:20,697 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:35:20,708 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:35:20,710 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:35:21,571 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 300 resources
+2019-07-01 09:36:44,424 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:36:44,451 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:36:44,454 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:36:44,766 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 300 resources
+2019-07-01 09:40:03,394 [Worker-5: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-01 09:40:03,396 [Worker-5: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-01 09:43:25,924 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:43:26,008 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:43:26,012 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:43:26,879 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 300 resources
+2019-07-01 09:45:21,602 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:45:21,615 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:45:21,619 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:45:21,636 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-01 09:45:43,135 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:45:43,146 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:45:43,150 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:45:43,162 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-01 09:46:10,219 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:10,310 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:46:10,314 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:10,325 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-01 09:46:30,593 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:30,605 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:46:30,610 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:30,625 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-01 09:46:45,884 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:45,895 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:46:45,898 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:45,909 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-01 09:46:52,017 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:52,027 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:46:52,031 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:46:52,041 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-01 09:47:04,276 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:47:04,287 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:47:04,290 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:47:04,302 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-01 09:47:11,507 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:47:11,593 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 09:47:11,598 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 09:47:11,608 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-01 09:48:07,070 [Worker-8: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-01 09:48:07,072 [Worker-8: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-01 10:06:08,965 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-07-01 12:03:23,983 [Worker-25: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-01 12:03:24,001 [Worker-25: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-01 12:13:01,332 [Worker-26: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-01 12:13:01,333 [Worker-26: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-01 12:22:08,154 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:22:08,243 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 12:22:08,248 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:22:08,372 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 301 resources
+2019-07-01 12:24:23,351 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:24:23,363 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 12:24:23,366 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:24:23,386 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-01 12:24:26,991 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:24:27,076 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 12:24:27,079 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:24:27,162 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-01 12:24:53,606 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:24:53,615 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-01 12:24:53,618 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-01 12:24:53,633 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-01 12:25:18,437 [Worker-36: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-01 12:25:18,440 [Worker-36: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-01 12:41:13,124 [Worker-22: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-01 12:41:13,127 [Worker-22: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-01 12:51:38,182 [Worker-45: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-01 12:51:38,185 [Worker-45: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-02 07:50:47,348 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-07-02 14:18:39,817 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-07-02 14:19:40,890 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:19:40,899 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:19:40,902 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:19:40,948 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 301 resources
+2019-07-02 14:32:04,482 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:04,514 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:32:04,520 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:04,542 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:32:28,369 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:28,376 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:32:28,378 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:28,390 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:32:34,739 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:34,857 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:32:34,862 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:34,945 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:32:44,022 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:44,103 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:32:44,109 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:44,196 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:32:59,871 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:32:59,975 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:32:59,982 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:33:00,034 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:33:39,932 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:33:40,029 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:33:40,038 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:33:40,058 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:34:00,211 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:34:00,225 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:34:00,231 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:34:00,327 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:34:13,927 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:34:14,020 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:34:14,025 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:34:14,118 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:34:19,015 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:34:19,111 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:34:19,116 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:34:19,199 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:34:53,288 [Worker-22: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-02 14:34:53,309 [Worker-22: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-02 14:41:34,038 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:41:34,140 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:41:34,144 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:41:34,229 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:41:35,494 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:41:35,586 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:41:35,591 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:41:35,677 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:42:52,307 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:42:52,376 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:42:52,389 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:42:52,404 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:43:02,579 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:02,597 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:43:02,604 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:02,634 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:43:16,823 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:16,910 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:43:16,915 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:17,885 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 301 resources
+2019-07-02 14:43:21,885 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:21,988 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:43:22,005 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:22,090 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:43:49,135 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:49,222 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:43:49,226 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:43:49,314 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:43:59,642 [Worker-25: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-02 14:43:59,646 [Worker-25: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-02 14:56:54,564 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:56:54,682 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:56:54,685 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:56:54,781 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-02 14:56:57,709 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:56:57,796 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:56:57,799 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:56:57,808 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-02 14:57:11,364 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:57:11,458 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 14:57:11,460 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 14:57:11,551 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-07-02 15:08:00,144 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:08:00,231 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 15:08:00,234 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:08:00,320 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-02 15:08:34,662 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:08:34,774 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 15:08:34,776 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:08:34,859 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-02 15:08:55,127 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:08:55,277 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 15:08:55,281 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:08:55,366 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-02 15:09:17,785 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:09:17,909 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation\src\main\resources
+2019-07-02 15:09:17,913 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-02 15:09:18,008 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-03 07:53:45,313 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-07-03 07:55:03,980 [Worker-3: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 07:55:03,986 [Worker-3: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-03 08:03:26,609 [Worker-18: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 08:03:26,610 [Worker-18: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-03 08:05:30,659 [Worker-5: Launching Executing clean in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 08:05:30,660 [Worker-5: Launching Executing clean in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-07-03 08:06:02,409 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-07-03 08:06:02,618 [Worker-18: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 08:06:02,619 [Worker-18: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-03 08:07:25,407 [Worker-5: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 08:07:25,408 [Worker-5: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2019-07-03 09:19:56,409 [Worker-25: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 09:19:56,425 [Worker-25: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+AnkitaFLNP006" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-03 09:20:13,637 [Worker-27: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 09:20:13,640 [Worker-27: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+Sanity01" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-03 09:32:39,858 [Worker-35: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 09:32:39,859 [Worker-35: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2019-07-03 09:34:02,565 [Worker-37: Launching Executing clean in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 09:34:02,565 [Worker-37: Launching Executing clean in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-07-03 09:34:30,683 [Worker-34: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 09:34:30,685 [Worker-34: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2019-07-03 09:35:22,717 [Worker-35: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 09:35:22,718 [Worker-35: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DforkCount=0 -B clean verify -Dmetafilter="+Sanity01" -Dtest.env=local -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./lib/chromedriver.exe
+2019-07-03 09:36:36,711 [Worker-34: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate - Y:\FixedLineSanityAutomation\OpenUI-SJBAutomation
+2019-07-03 09:36:36,714 [Worker-34: Launching Executing test in Y__FixedLineSanityAutomation_OpenUI-SJBAutomation] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2019-07-03 10:18:29,730 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

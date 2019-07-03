@@ -1,0 +1,888 @@
+!SESSION 2019-07-01 09:28:45.666 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-01 09:32:38.275
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vaishnavi.lambe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:33:56.868
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:33:56.958
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:35:20.702
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.292
+!MESSAGE Storing logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.298
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.305
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.312
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.319
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.325
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.439
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.524
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.616
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.709
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.790
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:41.886
+!MESSAGE Log file at Y:\FixedLineSanityAutomation\SanityWorkspace\.metadata\.plugins\org.jbehave.eclipse\plugin.log
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:58.478
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@706b68e6
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:35:58.566
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:36:44.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:36:44.459
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:36:48.180
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@59025525
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:36:48.188
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:43:25.931
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:43:26.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:45:21.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:45:21.623
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:45:43.140
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:45:43.155
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:10.225
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:10.318
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:46:30.231
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Nil@2276aa9c
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:46:30.239
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:30.598
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:30.615
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:46:45.592
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@168bcf44
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:46:45.599
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:45.889
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:45.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:46:51.718
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@60e397e2
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:46:51.727
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:52.022
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:46:52.035
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:47:03.999
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@722d2bc6
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:47:04.114
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:47:04.281
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:47:04.295
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:47:11.203
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@e5a79c6
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 09:47:11.287
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:47:11.512
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 09:47:11.603
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-07-01 10:04:41.230 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.418
+!MESSAGE Storing logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.430
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.436
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.443
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.450
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.457
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.552
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.559
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.565
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.572
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.578
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.584
+!MESSAGE Log file at Y:\FixedLineSanityAutomation\SanityWorkspace\.metadata\.plugins\org.jbehave.eclipse\plugin.log
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.845
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5f709b99
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:05:59.854
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-01 10:06:10.704
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vaishnavi.lambe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:06:58.304
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4f7feb99
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 10:06:58.398
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:03:13.086
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@843498c
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:03:13.179
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:10:50.912
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@1d78a608
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:10:50.993
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:10:51.096
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@65264125
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:10:51.175
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:11:29.381
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5beec778
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:11:29.388
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:11:29.402
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@36704dc4
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:11:29.408
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:22:08.162
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:22:08.252
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:22:37.250
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2ce7b957
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:22:37.349
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:22:37.438
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@1ba62a12
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:22:37.521
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:23:13.115
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@56eb377f
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:23:13.213
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:23:13.306
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4596f462
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:23:13.392
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:24:23.355
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:24:23.370
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:24:26.998
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:24:27.085
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:24:48.359
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@74bf5df8
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:24:48.365
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:24:48.373
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@70523614
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:24:48.379
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:24:53.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-01 12:24:53.624
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:25:27.694
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5e601677
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:25:27.775
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:25:27.858
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@21162e7d
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:25:27.938
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:26:13.604
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5b14b8a4
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:26:13.611
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:26:13.618
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5753860a
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 12:26:13.626
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 13:31:05.750
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4a42069d
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 13:31:05.763
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 13:31:05.775
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@8ab4e5e
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 13:31:05.859
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 13:31:56.780
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6b45f0cd
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 13:31:56.868
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2e23271e
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-01 13:31:56.946
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+!SESSION 2019-07-02 07:50:07.630 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-02 07:50:48.230
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vaishnavi.lambe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.571
+!MESSAGE Storing logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.578
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.584
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.591
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.596
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.682
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.833
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:57.921
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:58.001
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:58.081
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:58.164
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:58.248
+!MESSAGE Log file at Y:\FixedLineSanityAutomation\SanityWorkspace\.metadata\.plugins\org.jbehave.eclipse\plugin.log
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:50:58.506
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3463851a
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:51:15.546
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6f889214
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:51:15.561
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:51:52.388
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6fb8fb75
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 07:51:52.607
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+!SESSION 2019-07-02 14:17:14.965 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:25.645
+!MESSAGE Storing logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:25.733
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:25.814
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:25.821
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:25.826
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:25.833
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:25.927
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:26.011
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:26.092
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:26.181
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:26.260
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:26.342
+!MESSAGE Log file at Y:\FixedLineSanityAutomation\SanityWorkspace\.metadata\.plugins\org.jbehave.eclipse\plugin.log
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:18:26.729
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@216fe151
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-02 14:18:42.411
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vaishnavi.lambe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:19:19.321
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@490fa135
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:19:19.329
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:19:40.603
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5f5b278e
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:19:40.712
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:19:40.894
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:19:40.905
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:27:14.080
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5a265518
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:27:14.086
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:27:43.992
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@1f87c1e7
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:27:44.000
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:29:11.954
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@10e026d4
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:29:11.960
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:30:36.041
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6ebd49ae
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:30:36.047
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:04.489
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:04.525
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:28.372
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:28.382
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:34.777
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:34.867
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:32:38.639
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@df68957
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:32:38.645
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:44.027
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:44.115
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:32:59.879
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:33:00.023
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:33:10.071
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@9b14a83
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:33:10.077
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:33:39.947
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:33:40.045
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:33:40.658
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4f44d17e
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:33:40.664
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:34:00.219
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:34:00.243
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:34:12.020
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@46a09e48
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:34:12.098
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:34:13.932
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:34:14.030
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:34:19.033
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:34:19.121
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:34:42.743
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@7837553c
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:34:42.819
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:35:19.466
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@750bbf2b
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:35:19.472
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:41:34.045
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:41:34.148
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:41:35.501
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:41:35.597
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:42:05.104
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6fe26a35
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:42:05.183
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:42:47.318
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@313c7b95
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:42:47.324
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:42:52.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:42:52.394
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:02.592
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:02.618
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:43:14.796
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@644d2e78
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:43:14.888
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:16.831
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:16.919
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:21.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:22.011
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:43:47.073
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@7b1cded7
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:43:47.152
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:49.140
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:43:49.232
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:44:21.646
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@19e820ab
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:44:21.733
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:44:58.905
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@54630ee5
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:44:58.986
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:56:54.432
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@13e87a4e
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:56:54.515
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:56:54.603
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:56:54.689
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:56:57.714
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:56:57.803
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:57:11.368
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 14:57:11.464
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:57:33.291
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3154683d
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 14:57:33.385
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:08:00.021
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@16dcdb7e
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:08:00.027
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:08:00.148
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:08:00.238
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:08:34.539
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3e914cc6
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:08:34.620
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:08:34.697
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:08:34.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:08:55.006
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6d448dcd
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:08:55.115
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:08:55.197
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:08:55.285
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:09:17.671
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3d64f938
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-02 15:09:17.751
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:09:17.828
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 15:09:17.916
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-07-03 07:53:09.716 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.525
+!MESSAGE Storing logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.619
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.705
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.795
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.802
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.808
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.904
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.910
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.916
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.922
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.928
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:34.935
+!MESSAGE Log file at Y:\FixedLineSanityAutomation\SanityWorkspace\.metadata\.plugins\org.jbehave.eclipse\plugin.log
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:35.133
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4d462edc
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:53:35.141
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-03 07:53:47.292
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vaishnavi.lambe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:54:32.607
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4df460b7
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 07:54:32.617
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+!SESSION 2019-07-03 10:17:55.919 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.555
+!MESSAGE Storing logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.573
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.581
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.589
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.598
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.605
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.697
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.704
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:20.712
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:21.481
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:21.491
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:21.501
+!MESSAGE Log file at Y:\FixedLineSanityAutomation\SanityWorkspace\.metadata\.plugins\org.jbehave.eclipse\plugin.log
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:21.763
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3a770af8
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:18:21.772
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-03 10:18:31.203
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vaishnavi.lambe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:19:14.975
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@625f907d
+
+!ENTRY org.jbehave.eclipse 1 0 2019-07-03 10:19:15.099
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation

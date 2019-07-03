@@ -1,0 +1,1332 @@
+	
+Story: Fixed Line NewProvision
+Meta:
+@tag tag:admin,tag:application,version:Release-02,version:Sprint-01.02
+
+Narrative:
+  As a user
+  I should be able to create FL orders
+  
+  
+Scenario:AnkitaFLNP006 -Consumer,Vodafone Superfast Fibre Plus and Home Phone, SPAREPAIR   
+Meta:@AnkitaFLNP006
+@FolderName AnkitaFLNP006
+@Ankita
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|FTR5*&&Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario: FLNP001 Consumer, Vodafone Broadband and Home Phone, NOLINEPLANT
+Meta:@FLNP001
+@FolderName FLNP001
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'NOLINEPLANTCBU'
+And Create New Premise 'NOLINEPLANTCBU'
+And Filter Promotion 'NOLINEPLANTLine and ADSL|NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP002 Consumer, Vodafone Superfast Fibre Plus and Home Phone, NOLINEPLANT
+Meta:@FLNP002
+@FolderName FLNP002
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'NOLINEPLANTCBU'
+And Create New Premise 'NOLINEPLANTCBU'
+And Filter Promotion 'NOLINEPLANTMobile'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP004 Consumer, Vodafone Broadband and Home Phone, SPAREPAIR
+Meta:@FLNP004
+@FolderName FLNP004
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|FTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: BUSINESS ,12 month Vodafone Business Broadband and Phone ,SPAREPAIR
+Meta:@FLNEW037
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRLineFibreSpeedEssentialNOTExisting mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW034 : CONSUMER ,Vodafone Superfast Fibre Plus and Home Phone - Existing mobile customer ,SPAREPAIR
+Meta:@FLNEW034
+@FolderName FLNEW034
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 76|FTR5*&&Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW039 : BUSINESS ,24 month Vodafone Business Superfast Fibre and Phone ,SPAREPAIR 
+Meta:@FLNEW039
+@FolderName FLNEW039
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|Biz6*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW020 : Business,24 month Vodafone Business Superfast Fibre Plus and Phone, SPAREPAIR 
+Meta:@FLNEW020
+@FolderName FLNEW020
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 76|Biz6*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW008 : Consumer, Vodafone Superfast Fibre and Home Phone, BTRESTARTSTOPPED
+Meta:@FLNEW008
+@FolderName FLNEW008
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDCBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and Fibre with Speed 38|FTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW009 : Consumer,Vodafone Superfast Fibre Plus and Home Phone, BTRESTARTSTOPPED
+Meta:@FLNEW009
+@FolderName FLNEW009
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDCBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and Fibre with Speed 76|FTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP006 -Consumer,Vodafone Superfast Fibre Plus and Home Phone, SPAREPAIR   
+Meta:@FLNP006
+@FolderName FLNP006
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|FTR5*&&Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario: FLNEW007 - Consumer, Vodafone Broadband and Home Phone, BTRESTARTSTOPPED   
+Meta:@FLNEW007
+@FolderName FLNEW007
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDCBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and ADSL|NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW019 - Business, 24 month Vodafone Business Broadband and Phone, SPAREPAIR
+Meta:@FLNEW019
+@FolderName FLNEW019
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|Essential*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP040 - Business, Vodafone Business Superfast Fibre Plus and Phone, SPAREPAIR
+Meta:@FLNP040
+@FolderName FLNP040
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|Biz6*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW032 - CONSUMER ,Vodafone Superfast Fibre and Home Phone - Existing Red or Red+ mobile customer ,BTRESTARTSTOPPED
+Meta:@FLNEW032
+@FolderName FLNEW032
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDCBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and Fibre with Speed 38|FTR4*&&Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario: FLNEW011 - Consumer, Vodafone Broadband and Home Phone, BTWLTNONUMRET
+Meta:@FLNEW011
+@FolderName FLNEW011
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNONUMRETCBU'
+And Create New Premise 'BTWLTNONUMRETCBU'
+And Filter Promotion 'BTWLTNONUMRETLine and ADSL|NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW045 - 84954_Siebel_Order Modification_TC30_Siebel to SI EDGE_Agent places a New order with FLADSL promotion adds Smart Divert product and validates that Smart Divert Pin is updated in 
+         Installed Id field against Smart Divert product after Order is completed
+Meta:@FLNEW045
+@FolderName FLNEW045
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDCBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and Fibre with Speed 38|Essential*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP015 - Consumer,Vodafone Superfast Fibre Plus and Home Phone, MPFRESTARTSTOPPED
+Meta:@FLNP015
+@FolderName FLNP015
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDCBU'
+And Create New Premise 'MPFRESTARTSTOPPEDCBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and ADSL|FTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW026 - BUSINESS ,24 month Vodafone Business Broadband and Phone ,MPFRESTARTSTOPPED
+Meta:@FLNEW026
+@FolderName FLNEW026
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDEBU'
+And Create New Premise 'MPFRESTARTSTOPPEDEBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and ADSL|Essential*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP027 - BUSINESS , Vodafone Business Superfast Fibre and Phone ,MPFRESTARTSTOPPED
+Meta:@FLNP027
+@FolderName FLNP027
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDEBU'
+And Create New Premise 'MPFRESTARTSTOPPEDEBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and ADSL|Essential*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP028 - BUSINESS , Vodafone Business Superfast Fibre Plus and Phone ,MPFRESTARTSTOPPED
+Meta:@FLNP028
+@FolderName FLNP028
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDEBU'
+And Create New Premise 'MPFRESTARTSTOPPEDEBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and ADSL|Essential*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW017 - Consumer, Vodafone Broadband and Home Phone, MPFWLTNONUMRET
+Meta:@FLNEW017
+@FolderName FLNEW017
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFWLTNONUMRETCBU'
+And Create New Premise 'MPFWLTNONUMRETCBU'
+And Filter Promotion 'MPFWLTNONUMRETLine and Fibre with Speed 38|FTR4*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP018 - Consumer,Vodafone Superfast Fibre Plus and Home Phone, MPFWLTNONUMRET
+Meta:@FLNP018
+@FolderName FLNP018
+@Ankesh
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFWLTNONUMRETCBU'
+And Create New Premise 'MPFWLTNONUMRETCBU'
+And Filter Promotion 'MPFWLTNONUMRETLine and Fibre with Speed 76|FTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario: FLNP029 BUSINESS ,24 month Vodafone Business Broadband and Phone ,MPFWLTNUMRET
+Meta:@FLNP029
+@FolderName FLNP029
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFWLTNUMRETEBU'
+And Create New Premise 'MPFWLTNUMRETEBU'
+And Filter Promotion 'MPFWLTNUMRETLine and ADSL|Biz6*&&Y'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario: FLNP030 BUSINESS , Vodafone Business Superfast Fibre Plus and Phone ,MPFWLTNUMRET
+Meta:@FLNP030
+@FolderName FLNP030
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFWLTNUMRETEBU'
+And Create New Premise 'MPFWLTNUMRETEBU'
+And Filter Promotion 'MPFWLTNUMRETLine and ADSL|Biz6*&&Y'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP035 CONSUMER ,Vodafone Superfast Fibre and Home Phone - Existing mobile customer ,MPFRESTARTSTOPPED
+Meta:@FLNP035
+@FolderName FLNP035
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDCBU'
+And Create New Premise 'MPFRESTARTSTOPPEDCBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and Fibre with Speed 38|FTR5*&&Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP005 Consumer, Vodafone Superfast Fibre and Home Phone, SPAREPAIR
+Meta:@FLNP005
+@FolderName FLNP005
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|FTR5*&&NOT-Existing mobile customerRSSL'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP044 CONSUMER ,Vodafone Superfast Fibre Plus and Home Phone - Existing mobile customer ,SPAREPAIR
+Meta:@FLNP044
+@FolderName FLNP044
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 76|FTR5*&&Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP022 Business24 month Vodafone Business Superfast Fibre and Phone, BTRESTARTSTOPPED
+Meta:@FLNP022
+@FolderName FLNP022
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDEBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and Fibre with Speed 38|Biz6*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP023 Business, Vodafone Business Superfast Fibre Plus and Phone, BTRESTARTSTOPPED
+Meta:@FLNP023
+@FolderName FLNP023
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDEBU'
+And Create New Premise 'BTRESTARTSTOPPEDEBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and Fibre with Speed 38|Biz6*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP032 CONSUMER ,Vodafone Superfast Fibre and Home Phone - Existing Red or Red+ mobile customer ,BTRESTARTSTOPPED
+Meta:@FLNP032
+@FolderName FLNP032
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDCBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and Fibre with Speed 38|FTR5*&&Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP010 Consumer, Vodafone Broadband and Home Phone, BTWLTNUMRET
+Meta:@FLNP010
+@FolderName FLNP010
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNUMRETCBU'
+And Create New Premise 'BTWLTNUMRETCBU'
+And Filter Promotion 'BTWLTNUMRETLine and ADSL|NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP033 CONSUMER ,Vodafone Superfast Fibre Plus and Home Phone - Existing Red or Red+ mobile customer ,BTWLTNONUMRET
+Meta:@FLNP033
+@FolderName FLNP033
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNONUMRETCBU'
+And Create New Premise 'BTWLTNONUMRETCBU'
+And Filter Promotion 'BTWLTNONUMRETLine and Fibre with Speed 76|Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP012 Consumer, Vodafone Superfast Fibre and Home Phone, BTWLTNONUMRET
+Meta:@FLNP012
+@FolderName FLNP012
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNONUMRETCBU'
+And Create New Premise 'BTWLTNONUMRETCBU'
+And Filter Promotion 'BTWLTNONUMRETLine and Fibre with Speed 38|FTR5*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP013 Consumer, Vodafone Broadband and Home Phone, MPFRESTARTSTOPPED
+Meta:@FLNP013
+@FolderName FLNP013
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDCBU'
+And Create New Premise 'MPFRESTARTSTOPPEDCBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and ADSL|FTR5*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario:FLNP016 Consumer, Vodafone Broadband and Home Phone, MPFWLTNUMRET
+Meta:@FLNP016
+@FolderName FLNP016
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFWLTNUMRETCBU'
+And Create New Premise 'MPFWLTNUMRETCBU'
+And Filter Promotion 'MPFWLTNUMRETLine and ADSL|NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario: FLNEW036 - CONSUMER ,Vodafone Superfast Fibre Plus and Home Phone - Existing mobile customer ,MPFWLTNUMRET
+Meta:@FLNEW036
+@FolderName FLNEW036
+@Vishwa
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFWLTNUMRETCBU'
+And Create New Premise 'MPFWLTNUMRETCBU'
+And Filter Promotion 'MPFWLTNONUMRETLine and Fibre with Speed 76|FTR4*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW003 : Consumer, Vodafone Broadband and Home Phone, THROTTLEDFIBRE
+Meta:@FLNEW003
+@FolderName FLNEW003
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'THROTTLEDFIBRECBU'
+And Create New Premise 'THROTTLEDFIBRECBU'
+And Filter Promotion 'SPAREPAIRFTR5*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW031 : CONSUMER ,Vodafone Broadband and Home Phone - Existing mobile customer ,NOLINEPLANT
+Meta:@FLNEW031
+@FolderName FLNEW031
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'FixedLineConsumer'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'NOLINEPLANTCBU'
+And Create New Premise 'NOLINEPLANTCBU'
+And Filter Promotion 'NOLINEPLANTLine and ADSL|Existing mobile custome'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario: FLN25 - NewCo_CCS 5.0_104800_10_Agent places a FL + BB only new connection order and validate that SIM2 Is generated at time of order submission and also validate single SIM2 
+Meta:@FLN25
+@FolderName FLN25
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNUMRETEBU'
+And Create New Premise 'BTWLTNUMRETEBU'
+And Filter Promotion 'NOLINEPLANTLine and ADSL|Existing mobile custome'
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+
+Scenario: FLNP065 NewCo_CCS 5.0_104800 _06_Agent Places BB only Order and validate SIM2 value should not be populated after order submission for single play order.
+Meta:@FLNP065
+@FolderName FLNP065
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNUMRETEBU'
+And Create New Premise 'BTWLTNUMRETEBU'
+And Filter Promotion 'BTWLTNUMRETLine and ADSL|Biz6*&&Existing mobile custome'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+Then verify the Order line Items 'Sim2ReferenceBlank'
+
+
+Scenario: FLNEW049 - Newco CCS 1.0_June Catalog_WR31348_TS01_TC01_Agent places a new connection order on  109421  and validate the new MBB package (109616)  is added and updated in siebel and BRM
+Meta:@FLNEW049
+@FolderName FLNEW049
+@Vishwa
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRFTR4*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with '12mthDongleFL'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLN16 - NewCo_CCS 5.0_104800_10_Agent places a FL + BB only new connection order and validate that SIM2 Is generated at time of order submission and also validate single SIM2 
+Meta:@FLN16
+@FolderName FLN16
+@Vikrant
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRFTR4*&&NOT-Existing mobile customer'
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+Then verify the Order line Items 'Sim2Reference'
+
+Scenario:FLNP046 Fixed Line - EBU - Oracle - New Connection - Order Management - Agent Places an Order for new Fixed line Service to restart a stopped line  without Appointment Required as requested by Customer
+Meta:@FLNP046
+@FolderName FLNP046
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDEBU'
+And Create New Premise 'MPFRESTARTSTOPPEDEBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and ADSL|Biz6*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Make payment with 'CreditDebitCardAuthorisepaymentwithCVV'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario:FLNP047 Fixed Line - EBU - Oracle - New Connection - Order Management - TS31_Agent Places an Order for Fixed Line Service to restart a stopped line  without Appointment Required as requested by Customer
+Meta:@FLNP047
+@FolderName FLNP047
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDEBU'
+And Create New Premise 'BTRESTARTSTOPPEDEBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|Biz6*&&Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Promotion is added with 'PostpaidPromotion4G'
+And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
+And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
+And Make payment with 'CreditDebitCardAuthorisepaymentwithCVV'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP070 NewCo_CCS 5.0_CR 104336_Siebel_TS05_Validate that the agent should be able to create multiple contacts in Account - Contact - Account Permissions view 
+Meta:@FLNP070
+@FolderName FLNP070
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Validate Contacts tab for FL'LastNameWithValue'
+
+Scenario:FLNP071 NewCo CCS 3.1_Siebel_FL_PBI94801_Defect72636_Fixed Line -Premise details to be amendable by Backoffice team
+Meta:@FLNP071
+@FolderName FLNP071
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QPBO' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+Then validate the Premise page AddressPostcode Editable
+
+
+Scenario:FLNP063 NewCo_CCS 5.0_CR 104336_Siebel_TS01_Validate that the agent should be able to view the new field ‘Account Permission’ on the Customer Comm Contact view
+Meta:@FLNP063
+@FolderName FLNP063
+@Devi
+Given Place screenshots in Folder 'FolderName'
+And Retrieve Account 'ConsFLADSLExclAnytimeLAndline&Mobile'
+Given Login with 'QP' in 'Env'
+When Search The Account ''
+Then Validate the Account permission is full access 'AccountPermissionFullAcces'
+
+
+Scenario:FLNP061 NewCo_CCS 5.0_CR 104338_Siebel_TC08_Validate that the agent should be able to verify that the existing column applet view design should be altered and applied with the new view design under Owned Product Service tab and History view. 
+Meta:@FLNP061
+@FolderName FLNP061
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'RETAIL' in 'Env'
+And Retrieve Account 'PostpaidConsumer'
+When Search The Account ''
+Then Validate fields under CustomerSummarry Applet 'OwnedAllCol'
+And Validate fields under CustomerSummarry Applet 'OwnedOwnerAccount'
+When Search The Account ''
+Then Validate fields under CustomerSummarry Applet 'OwnedUserAccount'
+When Search The Account ''
+Then Validate fields under CustomerSummarry Applet 'OwnedBillingAccount'
+
+Scenario:FLNP080 NewCo_CCS 5.0_104764 _01_Agent places a FL+BB new connection order and validate Last Name, service account and service contact should be editable
+Meta:@FLNP080
+@FolderName FLNP080
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRFTR5*&&NOT-Existing mobile customer'
+And Make payment with 'CreditDebitCardAuthorisepaymentwithCVV'
+And Perform the CustomerAccount
+And Goto Sub Account
+And Click New Billing Account
+And Create only account type 'BillingAccount'
+And Create New SubAccount Billing Profile 'NewPostpaid'
+And Click New Service Account
+And Create only account type 'ServiceAccount'
+And Goto Account Summary
+And Create 'NoNewNoPopUp'Order
+And Select Billing Serviceaccount 'VerifySelection'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP081 NewCo_CCS 5.0_104764 _02_Agent modify fixed line service to add Engineer Visit and change Last Name, service account and service contact change  should be editable.
+Meta:@FLNP081
+@FolderName FLNP081
+@Devi
+Given Place screenshots in Folder 'FolderName'
+And Retrieve Account 'BusFLFib38ExclEngineerVisit'
+Given Login with 'QP' in 'Env'
+When Search The Account ''
+And Modify 'ModifyWithFixedLineService' with Econfig Item 'EngineerVisitOn'
+And Make payment with 'ONAccountNon-CardPopNO'
+And Perform the CustomerAccount
+And Goto Sub Account
+And Click New Billing Account
+And Create only account type 'BillingAccount'
+And Create New SubAccount Billing Profile 'NewPostpaid'
+And Click New Service Account
+And Create only account type 'ServiceAccount'
+And Goto Account Summary
+And Create 'NoNewNoPopUp'Order
+And Select Billing Serviceaccount 'VerifySelection'
+And Perform Credit Vet
+And Submit the Order 'SubmitForLineItemsValidationJourney'
+
+Scenario:FLNP083 Fixed Line - CBU - Oracle - Upgrades - Exchange - Agent Places a Like-for-Like Exchange Order for a Router within 14 days
+Meta:@FLNP083
+@FolderName FLNP083
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Retrieve Account 'ConsFLADSL'
+Given Login with 'QP' in 'Env'
+When Search The Account ''
+Then Perform the action 'LFLwithVodafoneRouter'
+When Order Fulfilment With 'ReserveYesPopUpYesWarehouse'
+And Deliver for 'SlctExcWkndEntrPhNoResvYNoPopUp'
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'SubmitWithPoorSalessReturnReason'
+
+Scenario:FLNP100 87654_Siebel_Fixed LineC_TC32_EBU _ADSL _SIEBEL_Agent validates that appointment status in Siebel is set as Confirmed  if  Rev 2 (amended )order commited in OSM
+Meta:@FLNP100
+@FolderName FLNP100
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRLine and ADSL|Biz6*&&NOT-Existing mobile customer'
+And Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP085 NewCo_CCS 5.0_103101 _01_Agent places FL + BB new connection order having connection fee and do payment via cash from call centre.
+Meta:@FLNP085
+@FolderName FLNP085
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNUMRETCBU'
+And Create New Premise 'BTWLTNUMRETCBU'
+And Filter Promotion 'BTWLTNUMRETLine and ADSL|NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Make payment with 'CreditDebitCardAuthorisepaymentwithCVV'
+When Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP085 NewCo_CCS1.0_CR80078_Siebel_TS04_Agent place a premises move for existing CBU customer having FLBB FTTC 76 subscription  with VF where DN Number is retained
+Meta:@FLNP127
+@FolderName FLNP127
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRFTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Make payment with 'CreditDebitCardAuthorisepaymentwithCVV'
+When Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP085 NewCo_CCS1.0_CR80078_Siebel_TS01_Agent place a premise move order for existing EBU customer having FL subscription with VF where DN Number is retained
+Meta:@FLNP132
+@FolderName FLNP132
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'NOLINEPLANTCBU'
+And Create New Premise 'NOLINEPLANTCBU'
+And Filter Promotion 'SPAREPAIR1'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+When Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP069 NewCo_CCS 5.0_104800_10_Agent places a FL + BB only new connection order and validate that SIM2 Is generated at time of order submission and also validate single SIM2 
+Meta:@FLNP069
+@FolderName FLNP069
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIRCBU'
+And Create New Premise 'SPAREPAIRCBU'
+And Filter Promotion 'SPAREPAIRFTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+Then verify the Order line Items 'Sim2Reference'
+
+Scenario: FLNP014 Consumer, Vodafone Superfast Fibre and Home Phone, MPFRESTARTSTOPPED
+Meta:@FLNP014
+@FolderName FLNP014
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'MPFRESTARTSTOPPEDCBU'
+And Create New Premise 'MPFRESTARTSTOPPEDCBU'
+And Filter Promotion 'MPFRESTARTSTOPPEDLine and Fibre with Speed 38|FTR5*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNEW021 Business,12 month Vodafone Business Broadband and Phone , BTRESTARTSTOPPED
+Meta:@FLNEW021
+@FolderName FLNP021
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDCBU'
+And Create New Premise 'BTRESTARTSTOPPEDEBU'
+And Filter Promotion 'BTRESTARTSTOPPEDLine and ADSL|Biz6*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP025 BUSINESS ,24 month Vodafone Business Broadband and Phone ,BTWLTNONUMRET
+Meta:@FLNP025
+@FolderName FLNP025
+@Vikrant
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTWLTNONUMRETEBU'
+And Create New Premise 'BTWLTNONUMRETEBU'
+And Filter Promotion 'BTWLTNONUMRETLine and ADSL|Biz6*&&NOT-Existing mobile customer'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP134 CCS 9.0_IRIS25448_TS01_ EBU FL only_Validate that  Contact First Name  Special Characters removed by TIL from CFLO and provide order created in SI having PSTN working line
+Meta:@FLNP134
+@FolderName FLNP134
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyySpecialCharac'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'PSTNWLNUMRETEBU'
+And Create New Premise 'PSTNWLNUMRETEBU'
+And Filter Promotion 'PSTNWLNUMRETLine|Business*'
+When Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario:FLNP135 CCS 9.0_IRIS25448_TS17_ EBU FL only _Validate that Forename Special Characters  removed by TIL from CFLO and provide order created in SI having PSTN working line
+Meta:@FLNP135
+@FolderName FLNP135
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyySpecialCharac'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'PSTNWLNUMRETEBU'
+And Create New Premise 'PSTNWLNUMRETEBU'
+And Filter Promotion No Book Appointment'PSTNWLNUMRETLine|Business*'
+When Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+
+Scenario:FLNP136 CCS 9.0_IRIS25448_TS06_CBU FLBB_Validate that Contact First Name Special Characters removed from CFLO of EDGE provide order by TIL and order created in EDGE
+Meta:@FLNP136
+@FolderName FLNP136
+@Zeba
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyySpecialCharac'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'SPAREPAIREBU'
+And Create New Premise 'SPAREPAIREBU'
+And Filter Promotion 'SPAREPAIRLine and Fibre with Speed 38|Biz6*&&NOT-Existing mobile customer'
+When Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP066 NewCo_CCS 3.0_CR103091_FixedLine_TS01_Agent places a new connection order having FLBB subscription and checks agreement is created as per the plan used for new activation
+Meta:@FLNP066
+@FolderName FLNP066
+@Devi
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+And Retrieve Account 'BusFLBBOnly'
+When Search The Account ''
+And Get agreement date for 'DateDifference18Months'
+
+
+Scenario: FLNP143 CCS 9.0_IRIS25418_TS01_CBU_FTTC38_Validate that min lead time coming as 7 day in GSA response for No Line plant.
+Meta:@FLNP143
+@FolderName FLNP143
+@Sayali
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'PostpaidConsumerzzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'NOLINEPLANTCBU'
+And Create New Premise 'NOLINEPLANTCBU'
+And Filter Promotion 'NOLINEPLANTLine and Fibre with Speed 38|FTR5*&&NOT-Existing mobile customer'
+When Compare requested date for 'CustomerRequestDateCompare7'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
+
+Scenario: FLNP145 CS 9.0_IRIS25418_TS12_EBU_FL Only_Validate that min lead time coming as 4 day in GSA response for Restart PSTN Stopped Line for EBU WLR3 FL only provide order
+Meta:@FLNP145
+@FolderName FLNP145
+@Sayali
+Given Place screenshots in Folder 'FolderName'
+Given Login with 'QP' in 'Env'
+When Create the account type 'SmallBusinesszzyy'
+And Create New 'NewPostpaid' and Perform 'AboutRecordOfMenuItem' with About Record
+And Perform 'RunQueryOfMenuItem' and Execute query 'Tokenization'
+And Update Contact Number 'ContactNumber'
+And Get Address 'BTRESTARTSTOPPEDEBU'
+And Create New Premise 'BTRESTARTSTOPPEDEBU'
+And Filter Promotion 'BTRESTARTSTOPPEDEBU_FLOnly'
+When Compare requested date for 'CustomerRequestDateCompare4'
+When Get the Router Number
+And Update ICCID against 'EnterRouterNoinVodafBroadbRouter'
+And Reserve Order
+And Perform Credit Vet
+And Make payment with 'ONAccountNon-CardPopNO'
+And Submit the Order 'NormalSubmitFL'
